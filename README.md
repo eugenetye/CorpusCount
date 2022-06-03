@@ -10,4 +10,4 @@ Raw file I/O must be used in this program, which means a buffer of 1024 bytes wi
 
 Because this may happen, **the final token in the buffer cannot be trusted to be complete.** The (potentially) partial token must be moved to the front of the buffer and then fill the buffer starting from where that token ends (so the information is not overwritten). If this is not done, the resulting word count will be incorrect.
 
-
+### Array of Structs
